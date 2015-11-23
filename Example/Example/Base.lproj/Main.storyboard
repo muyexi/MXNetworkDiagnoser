@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Rx9-Un-rrn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ytq-DF-0yF">
+            <objects>
+                <navigationController id="Rx9-Un-rrn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BgA-kz-pGZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CnA-Bn-7f1" kind="relationship" relationship="rootViewController" id="aOb-aW-zdu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1M-Th-h7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-405" y="186"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UOR-Fd-ipG">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="CnA-Bn-7f1" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4A6-l6-plg"/>
+                        <viewControllerLayoutGuide type="bottom" id="kcI-s7-U75"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vhe-gY-3gO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zmr-pK-oFY">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zmr-pK-oFY" secondAttribute="trailing" id="1Hq-jL-gE1"/>
+                            <constraint firstItem="kcI-s7-U75" firstAttribute="top" secondItem="zmr-pK-oFY" secondAttribute="bottom" id="1w0-LG-ubO"/>
+                            <constraint firstItem="zmr-pK-oFY" firstAttribute="leading" secondItem="vhe-gY-3gO" secondAttribute="leading" id="8oW-pF-wHW"/>
+                            <constraint firstItem="zmr-pK-oFY" firstAttribute="top" secondItem="4A6-l6-plg" secondAttribute="bottom" id="GmU-QZ-ezN"/>
+                            <constraint firstItem="kcI-s7-U75" firstAttribute="top" secondItem="zmr-pK-oFY" secondAttribute="bottom" id="OuS-rH-Om2"/>
+                            <constraint firstItem="zmr-pK-oFY" firstAttribute="top" secondItem="4A6-l6-plg" secondAttribute="bottom" id="oWx-pp-78S"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GmU-QZ-ezN"/>
+                                <exclude reference="OuS-rH-Om2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="YH9-Ii-zup"/>
+                    <connections>
+                        <outlet property="textView" destination="zmr-pK-oFY" id="oRt-b5-ZsH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMf-Oc-bk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="186"/>
+        </scene>
+    </scenes>
+</document>

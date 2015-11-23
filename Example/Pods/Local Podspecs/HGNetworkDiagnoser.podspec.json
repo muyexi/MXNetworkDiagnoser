@@ -1,0 +1,36 @@
+{
+  "name": "HGNetworkDiagnoser",
+  "version": "0.0.1",
+  "summary": "A short description of URL.",
+  "description": "",
+  "homepage": "http://EXAMPLE/URL",
+  "authors": {
+    "muyexi": "muyexi@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "http://EXAMPLE/URL.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "IVYTraceroute": [
+      "~> 1.0"
+    ],
+    "GBPing": [
+      "~> 1.3"
+    ],
+    "ALSystemUtilities": [
+      "~> 1.3"
+    ],
+    "SDVersion": [
+      "~> 2.5"
+    ]
+  }
+}

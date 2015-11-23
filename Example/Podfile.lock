@@ -1,0 +1,26 @@
+PODS:
+  - GBPing (1.3.3)
+  - IVYTraceroute (1.0.0)
+  - MXNetworkDiagnoser (0.0.1):
+    - GBPing (~> 1.3)
+    - IVYTraceroute (~> 1.0)
+    - Reachability (~> 3.2)
+    - SDVersion (~> 2.5)
+  - Reachability (3.2)
+  - SDVersion (2.5.2)
+
+DEPENDENCIES:
+  - MXNetworkDiagnoser (from `../`)
+
+EXTERNAL SOURCES:
+  MXNetworkDiagnoser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GBPing: 9ac5c2a772df23681bb2ad7c0cf8afa6515efe84
+  IVYTraceroute: 0f5fc1d0fa04990fbf4073978c20d1c5bd1c4876
+  MXNetworkDiagnoser: c4d7ffdf475d211ed0463dec4d42305c6239a5a7
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDVersion: 52f2641db3a580616936b0ce66f4769706570654
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092EBC86A8A5F1C227A4246FA39A5819 /* IVYHop+Description.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E31A3105D77CBFFE7F0C90D926E951 /* IVYHop+Description.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7CE47540BF8CE4DD5A4A9526F71E6E /* GBPingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD3086D63336571E0088BF1873BA24 /* GBPingSummary.m */; };
+		1B6285E290ED388065574C22A835BF4F /* SDVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EF48122338CDF377F5A13D695C85BC /* SDVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2755A416D14D49BF439BF40FB786B460 /* IVYTraceroute.m in Sources */ = {isa = PBXBuildFile; fileRef = D08134E340FD5A98807D2E098CBB4CAB /* IVYTraceroute.m */; };
+		27690FB772C26F9DC4DCBD01A7819FF2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D36D65D6B7B28E94CCAD2037B2CBB94C /* Reachability.m */; };
+		29FFB436B77B06F901E99C66531DFD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		3CC6C339ABB2E021B1AF14C2008A70FE /* IVYHop.h in Headers */ = {isa = PBXBuildFile; fileRef = 446FEA36052ADB0E9A4FDC39CA692F78 /* IVYHop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5FF9DE3039713A2F08F2A57288D042 /* IVYHop.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DE7F2CE8BC3CE3F754A51F2DCAF78 /* IVYHop.m */; };
+		45974E4DB33987E0B0B973E4A1038DEB /* MXNetworkDiagnoser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF01AB5127A5E199611F8396E5C04E7 /* MXNetworkDiagnoser.m */; };
+		4E0243668A6C6E0817C3AE69A5FCF76C /* ALJailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C5BC526EEF6CB3878F59D3E2FBDD3 /* ALJailbreak.m */; };
+		53AC1C8779E79094994F8CF72E5D6E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		5435FB6F090CA67355DAB6E3CD779289 /* SDiOSVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 814387A58602FEA7021984784966A741 /* SDiOSVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799A473AB3A40AF8A53E491C8320219 /* GBPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 613BEC1F651ACE46C8A99C9D9EAE7786 /* GBPing.m */; };
+		57C16330CFE5270989DFEC77F1371873 /* ALNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BD320AFD012E6841636BF38D1F13F0 /* ALNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		585DB3A3B0107C8AEF2959F77BBA99C4 /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F2BB701925D754F7FAE73AE557BF1 /* SDiOSVersion.m */; };
+		66072370E6C7806930C9DAEBAC5D7179 /* GBPingSummary+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E99603D3B1D62E079804D80DD0D61A /* GBPingSummary+Description.m */; };
+		6848AAED2EC1189FEA67CAD5329C69D8 /* ALNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDD2983188B97813552529E6CAC78F /* ALNetwork.m */; };
+		72783A50C4404F43CB1709DEAD193D6E /* GBPing.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EE29D0465D9270B66F0BC98DEFBC90 /* GBPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C5E37342C68FB35AE2A9DC814F1F82 /* GBPingSummary+Description.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BE375C5F3232BB404EF4D4D637DAC0 /* GBPingSummary+Description.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBFB4B5F05267F3945C1064A57AE953 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */; };
+		8017272D272AD051DFE39444CB6F3449 /* IVYTraceroute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1BD60F82D2DAF90789C94AE534E19C /* IVYTraceroute-dummy.m */; };
+		919AF38772DB248B852490AB057C30A3 /* ALJailbreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FA0234D21315472FF96D21D0D38D11 /* ALJailbreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958FAFAD44556FE5BC9031A2FB791321 /* IVYTraceroute.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC8740CAEE1A1B20DA112816493D5F7 /* IVYTraceroute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97EB4D48BB46F4AE7CAF122FDFB73226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		A0C8ACFAEB3825159E7F5ADBA375B128 /* ICMPHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE123ED45ACD04BC937D77996E2095B /* ICMPHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9BAB262AF223DE83FB8AA0F044C44FC /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		BD8044131F6209F7B32CC6AF72BDE342 /* IVYHop+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BBA8C3AEF2D666916CA0CF8133667 /* IVYHop+Description.m */; };
+		C0AE1B98E77F0261A291527CDA5FE99F /* SDVersion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8721B53053066B745D8D16A268AE /* SDVersion-dummy.m */; };
+		CC011B4B569E774BF6E9315153A6B705 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D96BC408347ADE15511A827AA76A37 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D13287DCD3643DBCE42C7A2A20278DAA /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE406A80AA3B1B76D0435D67CC5A10 /* Reachability-dummy.m */; };
+		D36F2F1CCD686A2DC19CBF276ADF9898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		D95A326A588EA6ED0F141CB3E8419C0D /* GBPing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B24CDB3E6CDF09A8EABE7F885C7B8EB /* GBPing-dummy.m */; };
+		DD3B126BB990AB053BFFC9B0594D0FE8 /* MXNetworkDiagnoser.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EF5A5FAC2BABB6EBDB6817AC9CD867 /* MXNetworkDiagnoser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46E6DB86A6732EACE17FA2587268C42 /* GBPingSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C96679C5FF50F1F5A1494BEF9FB496E /* GBPingSummary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CDCD685426BBECCC974F58693470B6 /* MXNetworkDiagnoser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C460E624BD7C3C0D46495B66101376 /* MXNetworkDiagnoser-dummy.m */; };
+		F7F022E85B77B663A7D58AC0437DF4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		FAF46A70EE3148B49C0C0349232D0F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16400AABE74AC54BFF1AB06E610540B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D14F15B7B83AF85D22A864CD7C5AEA5;
+			remoteInfo = IVYTraceroute;
+		};
+		8845ABDB59434C0F4EB728DC11BE19FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90078FF8DB2149FD16350CF385D8D25C;
+			remoteInfo = MXNetworkDiagnoser;
+		};
+		8DDA52A6D09F7A9F6AC8C1A09EB0F589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D14F15B7B83AF85D22A864CD7C5AEA5;
+			remoteInfo = IVYTraceroute;
+		};
+		9D91184036419F9B58290F28171138E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459530284B0B9E57B6633ACEC94F0C03;
+			remoteInfo = SDVersion;
+		};
+		B237A83581F89AC4BF015F7D3BC73068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B265EF4E83863BC27698B323947418AF;
+			remoteInfo = Reachability;
+		};
+		B93F72E04059FB436C4EE82D1D460932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459530284B0B9E57B6633ACEC94F0C03;
+			remoteInfo = SDVersion;
+		};
+		D163CD5AFF864A2E79D12103D56A1898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45E882B465A4F7CCDADCDE56F3519F2;
+			remoteInfo = GBPing;
+		};
+		DECFB42DF60E8DF5E739B239A6DB3D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B265EF4E83863BC27698B323947418AF;
+			remoteInfo = Reachability;
+		};
+		F7C1704EA1E152971BD06509CD77BBD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D605A90E8B8AEC36ED11B8B707CC74C;
+			remoteInfo = "IVYTraceroute-IVYTraceroute";
+		};
+		FBFAA7CCE0FEC9DDBC464E18E4145EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45E882B465A4F7CCDADCDE56F3519F2;
+			remoteInfo = GBPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF48122338CDF377F5A13D695C85BC /* SDVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDVersion.h; path = SDVersion/SDVersion.h; sourceTree = "<group>"; };
+		04EF5A5FAC2BABB6EBDB6817AC9CD867 /* MXNetworkDiagnoser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXNetworkDiagnoser.h; sourceTree = "<group>"; };
+		08D92CBAD1A7AAB13F0210CC44544114 /* MXNetworkDiagnoser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXNetworkDiagnoser-prefix.pch"; sourceTree = "<group>"; };
+		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B22A3E4801185D62404C41E025F314E /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF01AB5127A5E199611F8396E5C04E7 /* MXNetworkDiagnoser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXNetworkDiagnoser.m; sourceTree = "<group>"; };
+		1B5C110B1615EEB45DEF9A4956E77DA4 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IVYTraceroute.xcconfig; sourceTree = "<group>"; };
+		20BE375C5F3232BB404EF4D4D637DAC0 /* GBPingSummary+Description.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBPingSummary+Description.h"; sourceTree = "<group>"; };
+		240512CE060955C6187AA7B39BAD296F /* GBPing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBPing-prefix.pch"; sourceTree = "<group>"; };
+		259BA9A3C7C3C7CE617FE5EEB17AB177 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		363F2BB701925D754F7FAE73AE557BF1 /* SDiOSVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDiOSVersion.m; path = SDVersion/SDiOSVersion/SDiOSVersion.m; sourceTree = "<group>"; };
+		42378E177362AA0B40E03AD723F41CB5 /* MXNetworkDiagnoser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXNetworkDiagnoser.xcconfig; sourceTree = "<group>"; };
+		446FEA36052ADB0E9A4FDC39CA692F78 /* IVYHop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVYHop.h; path = Pod/Classes/IVYHop.h; sourceTree = "<group>"; };
+		4A7E8721B53053066B745D8D16A268AE /* SDVersion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDVersion-dummy.m"; sourceTree = "<group>"; };
+		4AF6DCED2381961C2429BCAC2D58BC83 /* IVYTraceroute.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IVYTraceroute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B24CDB3E6CDF09A8EABE7F885C7B8EB /* GBPing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBPing-dummy.m"; sourceTree = "<group>"; };
+		4DE4D768E23910B0F4992300AB1034DC /* libSDVersion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDVersion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E21C6963D91CC6C90728119D3F98F1 /* SDVersion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDVersion-prefix.pch"; sourceTree = "<group>"; };
+		598BBA8C3AEF2D666916CA0CF8133667 /* IVYHop+Description.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IVYHop+Description.m"; sourceTree = "<group>"; };
+		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		613BEC1F651ACE46C8A99C9D9EAE7786 /* GBPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPing.m; path = GBPing/GBPing.m; sourceTree = "<group>"; };
+		67E99603D3B1D62E079804D80DD0D61A /* GBPingSummary+Description.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBPingSummary+Description.m"; sourceTree = "<group>"; };
+		69FA0234D21315472FF96D21D0D38D11 /* ALJailbreak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALJailbreak.h; sourceTree = "<group>"; };
+		6BFDD2983188B97813552529E6CAC78F /* ALNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALNetwork.m; sourceTree = "<group>"; };
+		6C96679C5FF50F1F5A1494BEF9FB496E /* GBPingSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPingSummary.h; path = GBPing/GBPingSummary.h; sourceTree = "<group>"; };
+		73D96BC408347ADE15511A827AA76A37 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A2C5BC526EEF6CB3878F59D3E2FBDD3 /* ALJailbreak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALJailbreak.m; sourceTree = "<group>"; };
+		814387A58602FEA7021984784966A741 /* SDiOSVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDiOSVersion.h; path = SDVersion/SDiOSVersion/SDiOSVersion.h; sourceTree = "<group>"; };
+		81BD320AFD012E6841636BF38D1F13F0 /* ALNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALNetwork.h; sourceTree = "<group>"; };
+		824F9E63A43D954B3ACF8620749E5DE1 /* IVYTraceroute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IVYTraceroute-prefix.pch"; sourceTree = "<group>"; };
+		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		89EE29D0465D9270B66F0BC98DEFBC90 /* GBPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPing.h; path = GBPing/GBPing.h; sourceTree = "<group>"; };
+		8DA5205F668D2679CE48DEF07CEB4F44 /* libMXNetworkDiagnoser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMXNetworkDiagnoser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE04AD4A489E51D3E8D36F6B78CF1AF /* libIVYTraceroute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIVYTraceroute.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDD3086D63336571E0088BF1873BA24 /* GBPingSummary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPingSummary.m; path = GBPing/GBPingSummary.m; sourceTree = "<group>"; };
+		A3CE406A80AA3B1B76D0435D67CC5A10 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		AC1BD60F82D2DAF90789C94AE534E19C /* IVYTraceroute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IVYTraceroute-dummy.m"; sourceTree = "<group>"; };
+		ACE123ED45ACD04BC937D77996E2095B /* ICMPHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMPHeader.h; path = GBPing/ICMPHeader.h; sourceTree = "<group>"; };
+		B2C460E624BD7C3C0D46495B66101376 /* MXNetworkDiagnoser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXNetworkDiagnoser-dummy.m"; sourceTree = "<group>"; };
+		B4E31A3105D77CBFFE7F0C90D926E951 /* IVYHop+Description.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IVYHop+Description.h"; sourceTree = "<group>"; };
+		B7E51DD7DF28D2325811D95B360A5D4A /* SDVersion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDVersion.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		C71DE7F2CE8BC3CE3F754A51F2DCAF78 /* IVYHop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IVYHop.m; path = Pod/Classes/IVYHop.m; sourceTree = "<group>"; };
+		CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D08134E340FD5A98807D2E098CBB4CAB /* IVYTraceroute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IVYTraceroute.m; path = Pod/Classes/IVYTraceroute.m; sourceTree = "<group>"; };
+		D2B40651031931A7CA771659F2B667CC /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		D36D65D6B7B28E94CCAD2037B2CBB94C /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DEC8740CAEE1A1B20DA112816493D5F7 /* IVYTraceroute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVYTraceroute.h; path = Pod/Classes/IVYTraceroute.h; sourceTree = "<group>"; };
+		DED702E8C9022EBF1F26E6BBB0A0C40F /* GBPing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBPing.xcconfig; sourceTree = "<group>"; };
+		E0D2C155729A27154495D80727B8D4B3 /* libGBPing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGBPing.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113764299248F57ACC8C3F596F93F098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F022E85B77B663A7D58AC0437DF4FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B08D79F784656E5555FFE35837699AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36F2F1CCD686A2DC19CBF276ADF9898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7ADB0233C6A61666783139E9CAA139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC1C8779E79094994F8CF72E5D6E70 /* Foundation.framework in Frameworks */,
+				7EBFB4B5F05267F3945C1064A57AE953 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C4930DAC0096AEE295F9D36501F6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507ABD8ADB1BB2C9DD277B78BA59C6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EB4D48BB46F4AE7CAF122FDFB73226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB3154809AC1B67E75BC215A61ACAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FFB436B77B06F901E99C66531DFD0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C477B7D478558C83C44AB8925760E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF46A70EE3148B49C0C0349232D0F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B0824D98879778988AEAD62F0D542E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED702E8C9022EBF1F26E6BBB0A0C40F /* GBPing.xcconfig */,
+				4B24CDB3E6CDF09A8EABE7F885C7B8EB /* GBPing-dummy.m */,
+				240512CE060955C6187AA7B39BAD296F /* GBPing-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GBPing";
+			sourceTree = "<group>";
+		};
+		0D1A9B04773EF0CA51E38942760CD6D4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */,
+				CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B3DC0B8EEA0FE79193A21568E621640 /* MXNetworkDiagnoser */ = {
+			isa = PBXGroup;
+			children = (
+				AA84D5E6906ED952ED8C64ABA5B8D9F1 /* Classes */,
+				5FF51EA075F399FB1C8F369C11831271 /* Support Files */,
+			);
+			name = MXNetworkDiagnoser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2EDAC7159D0291FF4D9FFE100243474A /* IVYTraceroute */ = {
+			isa = PBXGroup;
+			children = (
+				446FEA36052ADB0E9A4FDC39CA692F78 /* IVYHop.h */,
+				C71DE7F2CE8BC3CE3F754A51F2DCAF78 /* IVYHop.m */,
+				DEC8740CAEE1A1B20DA112816493D5F7 /* IVYTraceroute.h */,
+				D08134E340FD5A98807D2E098CBB4CAB /* IVYTraceroute.m */,
+				46A799CDB9461F4C416F350A516E28CE /* Support Files */,
+			);
+			path = IVYTraceroute;
+			sourceTree = "<group>";
+		};
+		33F2C304573F0990533F7802FA54930E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E51DD7DF28D2325811D95B360A5D4A /* SDVersion.xcconfig */,
+				4A7E8721B53053066B745D8D16A268AE /* SDVersion-dummy.m */,
+				51E21C6963D91CC6C90728119D3F98F1 /* SDVersion-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDVersion";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A9B04773EF0CA51E38942760CD6D4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46A799CDB9461F4C416F350A516E28CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */,
+				AC1BD60F82D2DAF90789C94AE534E19C /* IVYTraceroute-dummy.m */,
+				824F9E63A43D954B3ACF8620749E5DE1 /* IVYTraceroute-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IVYTraceroute";
+			sourceTree = "<group>";
+		};
+		5247F3F45E2C71E905BB981C1095554E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B40651031931A7CA771659F2B667CC /* Reachability.xcconfig */,
+				A3CE406A80AA3B1B76D0435D67CC5A10 /* Reachability-dummy.m */,
+				259BA9A3C7C3C7CE617FE5EEB17AB177 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		5A57BABD068B1D708E9AAC1C4F8A71C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B3DC0B8EEA0FE79193A21568E621640 /* MXNetworkDiagnoser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5FF51EA075F399FB1C8F369C11831271 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42378E177362AA0B40E03AD723F41CB5 /* MXNetworkDiagnoser.xcconfig */,
+				B2C460E624BD7C3C0D46495B66101376 /* MXNetworkDiagnoser-dummy.m */,
+				08D92CBAD1A7AAB13F0210CC44544114 /* MXNetworkDiagnoser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MXNetworkDiagnoser";
+			sourceTree = "<group>";
+		};
+		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */,
+				7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */,
+				853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */,
+				5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */,
+				C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */,
+				2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */,
+				74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		7A8791D8565480111220302EBC3B2DE4 /* GBPing */ = {
+			isa = PBXGroup;
+			children = (
+				89EE29D0465D9270B66F0BC98DEFBC90 /* GBPing.h */,
+				613BEC1F651ACE46C8A99C9D9EAE7786 /* GBPing.m */,
+				6C96679C5FF50F1F5A1494BEF9FB496E /* GBPingSummary.h */,
+				9EDD3086D63336571E0088BF1873BA24 /* GBPingSummary.m */,
+				ACE123ED45ACD04BC937D77996E2095B /* ICMPHeader.h */,
+				04B0824D98879778988AEAD62F0D542E /* Support Files */,
+			);
+			path = GBPing;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				5A57BABD068B1D708E9AAC1C4F8A71C4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				90B0DF98F83ACD42205501DA87AFB23D /* Pods */,
+				D38C26EEC2F04B1AED37C2603B4AE711 /* Products */,
+				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90B0DF98F83ACD42205501DA87AFB23D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A8791D8565480111220302EBC3B2DE4 /* GBPing */,
+				2EDAC7159D0291FF4D9FFE100243474A /* IVYTraceroute */,
+				B6E89302A629E6EC0818A941723D247B /* Reachability */,
+				AC1C6AA9330B5B9E6F5EB687596F64E1 /* SDVersion */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA84D5E6906ED952ED8C64ABA5B8D9F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69FA0234D21315472FF96D21D0D38D11 /* ALJailbreak.h */,
+				7A2C5BC526EEF6CB3878F59D3E2FBDD3 /* ALJailbreak.m */,
+				81BD320AFD012E6841636BF38D1F13F0 /* ALNetwork.h */,
+				6BFDD2983188B97813552529E6CAC78F /* ALNetwork.m */,
+				20BE375C5F3232BB404EF4D4D637DAC0 /* GBPingSummary+Description.h */,
+				67E99603D3B1D62E079804D80DD0D61A /* GBPingSummary+Description.m */,
+				B4E31A3105D77CBFFE7F0C90D926E951 /* IVYHop+Description.h */,
+				598BBA8C3AEF2D666916CA0CF8133667 /* IVYHop+Description.m */,
+				04EF5A5FAC2BABB6EBDB6817AC9CD867 /* MXNetworkDiagnoser.h */,
+				1AF01AB5127A5E199611F8396E5C04E7 /* MXNetworkDiagnoser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC1C6AA9330B5B9E6F5EB687596F64E1 /* SDVersion */ = {
+			isa = PBXGroup;
+			children = (
+				814387A58602FEA7021984784966A741 /* SDiOSVersion.h */,
+				363F2BB701925D754F7FAE73AE557BF1 /* SDiOSVersion.m */,
+				04EF48122338CDF377F5A13D695C85BC /* SDVersion.h */,
+				33F2C304573F0990533F7802FA54930E /* Support Files */,
+			);
+			path = SDVersion;
+			sourceTree = "<group>";
+		};
+		B6E89302A629E6EC0818A941723D247B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				73D96BC408347ADE15511A827AA76A37 /* Reachability.h */,
+				D36D65D6B7B28E94CCAD2037B2CBB94C /* Reachability.m */,
+				5247F3F45E2C71E905BB981C1095554E /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		D38C26EEC2F04B1AED37C2603B4AE711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6DCED2381961C2429BCAC2D58BC83 /* IVYTraceroute.bundle */,
+				E0D2C155729A27154495D80727B8D4B3 /* libGBPing.a */,
+				9CE04AD4A489E51D3E8D36F6B78CF1AF /* libIVYTraceroute.a */,
+				8DA5205F668D2679CE48DEF07CEB4F44 /* libMXNetworkDiagnoser.a */,
+				1B5C110B1615EEB45DEF9A4956E77DA4 /* libPods-Example.a */,
+				0B22A3E4801185D62404C41E025F314E /* libReachability.a */,
+				4DE4D768E23910B0F4992300AB1034DC /* libSDVersion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48A534C805DDB7ECCD13E20AC0399CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72783A50C4404F43CB1709DEAD193D6E /* GBPing.h in Headers */,
+				E46E6DB86A6732EACE17FA2587268C42 /* GBPingSummary.h in Headers */,
+				A0C8ACFAEB3825159E7F5ADBA375B128 /* ICMPHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D92B6621C205322B1DB0020B713770C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5435FB6F090CA67355DAB6E3CD779289 /* SDiOSVersion.h in Headers */,
+				1B6285E290ED388065574C22A835BF4F /* SDVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4696B5F54C41263BA0FCA2655CBA3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC011B4B569E774BF6E9315153A6B705 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB00DAD1B7F92328FB8C9084BCAFF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC6C339ABB2E021B1AF14C2008A70FE /* IVYHop.h in Headers */,
+				958FAFAD44556FE5BC9031A2FB791321 /* IVYTraceroute.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98C95884C83FF2DDF586DE06C86D10F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919AF38772DB248B852490AB057C30A3 /* ALJailbreak.h in Headers */,
+				57C16330CFE5270989DFEC77F1371873 /* ALNetwork.h in Headers */,
+				74C5E37342C68FB35AE2A9DC814F1F82 /* GBPingSummary+Description.h in Headers */,
+				092EBC86A8A5F1C227A4246FA39A5819 /* IVYHop+Description.h in Headers */,
+				DD3B126BB990AB053BFFC9B0594D0FE8 /* MXNetworkDiagnoser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D605A90E8B8AEC36ED11B8B707CC74C /* IVYTraceroute-IVYTraceroute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D793F0BF35232C8E5FC4650C61B99F52 /* Build configuration list for PBXNativeTarget "IVYTraceroute-IVYTraceroute" */;
+			buildPhases = (
+				76986B077418D0FFA11147B642B2E9EE /* Sources */,
+				47C4930DAC0096AEE295F9D36501F6CA /* Frameworks */,
+				4E25F6290CDD5A27C7AC72C1F16B5678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IVYTraceroute-IVYTraceroute";
+			productName = "IVYTraceroute-IVYTraceroute";
+			productReference = 4AF6DCED2381961C2429BCAC2D58BC83 /* IVYTraceroute.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		459530284B0B9E57B6633ACEC94F0C03 /* SDVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C957774E7F40FA5C405F3397B425588 /* Build configuration list for PBXNativeTarget "SDVersion" */;
+			buildPhases = (
+				254DCFDE2FF602147F312E0B765BFE47 /* Sources */,
+				3B08D79F784656E5555FFE35837699AA /* Frameworks */,
+				4D92B6621C205322B1DB0020B713770C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDVersion;
+			productName = SDVersion;
+			productReference = 4DE4D768E23910B0F4992300AB1034DC /* libSDVersion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D14F15B7B83AF85D22A864CD7C5AEA5 /* IVYTraceroute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FDDD5AB76F4A6D25CCFBC6847D15AF /* Build configuration list for PBXNativeTarget "IVYTraceroute" */;
+			buildPhases = (
+				9C3EF42C3C5107C5539B42EA09BE3BA8 /* Sources */,
+				AAB3154809AC1B67E75BC215A61ACAB2 /* Frameworks */,
+				50AB00DAD1B7F92328FB8C9084BCAFF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A60DC0D10B42594B1F1F3445E05C70 /* PBXTargetDependency */,
+			);
+			name = IVYTraceroute;
+			productName = IVYTraceroute;
+			productReference = 9CE04AD4A489E51D3E8D36F6B78CF1AF /* libIVYTraceroute.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90078FF8DB2149FD16350CF385D8D25C /* MXNetworkDiagnoser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D46E951AA91E6FF51EE363AA914A50 /* Build configuration list for PBXNativeTarget "MXNetworkDiagnoser" */;
+			buildPhases = (
+				6C0712095FA07DE72AF629E7E549FFEF /* Sources */,
+				507ABD8ADB1BB2C9DD277B78BA59C6EF /* Frameworks */,
+				B98C95884C83FF2DDF586DE06C86D10F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3962876E88ACE05C038E0CD52D2E8950 /* PBXTargetDependency */,
+				FD85FB7531222F7668F112A80C86450E /* PBXTargetDependency */,
+				2028DBCB995CAD5AAB5188B8D0FBEB18 /* PBXTargetDependency */,
+				9501E3A65411AF885F03EC678916E19E /* PBXTargetDependency */,
+			);
+			name = MXNetworkDiagnoser;
+			productName = MXNetworkDiagnoser;
+			productReference = 8DA5205F668D2679CE48DEF07CEB4F44 /* libMXNetworkDiagnoser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B265EF4E83863BC27698B323947418AF /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BCA48948A514F5D600C561E939F349 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				D854D9DFD9C40BE8520D657957CEF886 /* Sources */,
+				3E7ADB0233C6A61666783139E9CAA139 /* Frameworks */,
+				4E4696B5F54C41263BA0FCA2655CBA3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 0B22A3E4801185D62404C41E025F314E /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D45E882B465A4F7CCDADCDE56F3519F2 /* GBPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D953D031D346F4AE107DA27E998A8EC0 /* Build configuration list for PBXNativeTarget "GBPing" */;
+			buildPhases = (
+				2051AD881025F826FCEC5891939E882A /* Sources */,
+				B1C477B7D478558C83C44AB8925760E4 /* Frameworks */,
+				48A534C805DDB7ECCD13E20AC0399CA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBPing;
+			productName = GBPing;
+			productReference = E0D2C155729A27154495D80727B8D4B3 /* libGBPing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB0AE59394DD4F33C575962F496CD333 /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2909939B15A2148777C778602848A1B /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				FCEF54964C69FF1D4B2A2E657BD7E83D /* Sources */,
+				113764299248F57ACC8C3F596F93F098 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843883B3E13569E25ABB1789721A257A /* PBXTargetDependency */,
+				38D45AD5B6A7E7580778B22F79C388D0 /* PBXTargetDependency */,
+				C861DA0E45C08533967023A25BFB92B8 /* PBXTargetDependency */,
+				83B9988BE5C30CBA1A611B6C56E720AE /* PBXTargetDependency */,
+				2B763B3DDF656A90C5F0347A682E0A37 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1B5C110B1615EEB45DEF9A4956E77DA4 /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D38C26EEC2F04B1AED37C2603B4AE711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45E882B465A4F7CCDADCDE56F3519F2 /* GBPing */,
+				6D14F15B7B83AF85D22A864CD7C5AEA5 /* IVYTraceroute */,
+				0D605A90E8B8AEC36ED11B8B707CC74C /* IVYTraceroute-IVYTraceroute */,
+				90078FF8DB2149FD16350CF385D8D25C /* MXNetworkDiagnoser */,
+				FB0AE59394DD4F33C575962F496CD333 /* Pods-Example */,
+				B265EF4E83863BC27698B323947418AF /* Reachability */,
+				459530284B0B9E57B6633ACEC94F0C03 /* SDVersion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E25F6290CDD5A27C7AC72C1F16B5678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2051AD881025F826FCEC5891939E882A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A326A588EA6ED0F141CB3E8419C0D /* GBPing-dummy.m in Sources */,
+				5799A473AB3A40AF8A53E491C8320219 /* GBPing.m in Sources */,
+				0A7CE47540BF8CE4DD5A4A9526F71E6E /* GBPingSummary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254DCFDE2FF602147F312E0B765BFE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585DB3A3B0107C8AEF2959F77BBA99C4 /* SDiOSVersion.m in Sources */,
+				C0AE1B98E77F0261A291527CDA5FE99F /* SDVersion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0712095FA07DE72AF629E7E549FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0243668A6C6E0817C3AE69A5FCF76C /* ALJailbreak.m in Sources */,
+				6848AAED2EC1189FEA67CAD5329C69D8 /* ALNetwork.m in Sources */,
+				66072370E6C7806930C9DAEBAC5D7179 /* GBPingSummary+Description.m in Sources */,
+				BD8044131F6209F7B32CC6AF72BDE342 /* IVYHop+Description.m in Sources */,
+				E7CDCD685426BBECCC974F58693470B6 /* MXNetworkDiagnoser-dummy.m in Sources */,
+				45974E4DB33987E0B0B973E4A1038DEB /* MXNetworkDiagnoser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76986B077418D0FFA11147B642B2E9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3EF42C3C5107C5539B42EA09BE3BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5FF9DE3039713A2F08F2A57288D042 /* IVYHop.m in Sources */,
+				8017272D272AD051DFE39444CB6F3449 /* IVYTraceroute-dummy.m in Sources */,
+				2755A416D14D49BF439BF40FB786B460 /* IVYTraceroute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D854D9DFD9C40BE8520D657957CEF886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13287DCD3643DBCE42C7A2A20278DAA /* Reachability-dummy.m in Sources */,
+				27690FB772C26F9DC4DCBD01A7819FF2 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEF54964C69FF1D4B2A2E657BD7E83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BAB262AF223DE83FB8AA0F044C44FC /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2028DBCB995CAD5AAB5188B8D0FBEB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = B265EF4E83863BC27698B323947418AF /* Reachability */;
+			targetProxy = B237A83581F89AC4BF015F7D3BC73068 /* PBXContainerItemProxy */;
+		};
+		2B763B3DDF656A90C5F0347A682E0A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDVersion;
+			target = 459530284B0B9E57B6633ACEC94F0C03 /* SDVersion */;
+			targetProxy = 9D91184036419F9B58290F28171138E7 /* PBXContainerItemProxy */;
+		};
+		38D45AD5B6A7E7580778B22F79C388D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IVYTraceroute;
+			target = 6D14F15B7B83AF85D22A864CD7C5AEA5 /* IVYTraceroute */;
+			targetProxy = 16400AABE74AC54BFF1AB06E610540B0 /* PBXContainerItemProxy */;
+		};
+		3962876E88ACE05C038E0CD52D2E8950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBPing;
+			target = D45E882B465A4F7CCDADCDE56F3519F2 /* GBPing */;
+			targetProxy = FBFAA7CCE0FEC9DDBC464E18E4145EAE /* PBXContainerItemProxy */;
+		};
+		83B9988BE5C30CBA1A611B6C56E720AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = B265EF4E83863BC27698B323947418AF /* Reachability */;
+			targetProxy = DECFB42DF60E8DF5E739B239A6DB3D13 /* PBXContainerItemProxy */;
+		};
+		843883B3E13569E25ABB1789721A257A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBPing;
+			target = D45E882B465A4F7CCDADCDE56F3519F2 /* GBPing */;
+			targetProxy = D163CD5AFF864A2E79D12103D56A1898 /* PBXContainerItemProxy */;
+		};
+		9501E3A65411AF885F03EC678916E19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDVersion;
+			target = 459530284B0B9E57B6633ACEC94F0C03 /* SDVersion */;
+			targetProxy = B93F72E04059FB436C4EE82D1D460932 /* PBXContainerItemProxy */;
+		};
+		C861DA0E45C08533967023A25BFB92B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXNetworkDiagnoser;
+			target = 90078FF8DB2149FD16350CF385D8D25C /* MXNetworkDiagnoser */;
+			targetProxy = 8845ABDB59434C0F4EB728DC11BE19FF /* PBXContainerItemProxy */;
+		};
+		F6A60DC0D10B42594B1F1F3445E05C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IVYTraceroute-IVYTraceroute";
+			target = 0D605A90E8B8AEC36ED11B8B707CC74C /* IVYTraceroute-IVYTraceroute */;
+			targetProxy = F7C1704EA1E152971BD06509CD77BBD3 /* PBXContainerItemProxy */;
+		};
+		FD85FB7531222F7668F112A80C86450E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IVYTraceroute;
+			target = 6D14F15B7B83AF85D22A864CD7C5AEA5 /* IVYTraceroute */;
+			targetProxy = 8DDA52A6D09F7A9F6AC8C1A09EB0F589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1527210A488AC4D1E1EB7D247DCF6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B40651031931A7CA771659F2B667CC /* Reachability.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		251DD6A9D6EE83CAEB19F3EB6EC2665F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED702E8C9022EBF1F26E6BBB0A0C40F /* GBPing.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBPing/GBPing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34247821F086B3AB4E57595650797822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E51DD7DF28D2325811D95B360A5D4A /* SDVersion.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FC7315D30CA322BF9813B721962ADF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E51DD7DF28D2325811D95B360A5D4A /* SDVersion.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		455577A830029BF67E374593AF1A2154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42378E177362AA0B40E03AD723F41CB5 /* MXNetworkDiagnoser.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MXNetworkDiagnoser/MXNetworkDiagnoser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55FCD0E8117754990E7270419BBC19A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42378E177362AA0B40E03AD723F41CB5 /* MXNetworkDiagnoser.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MXNetworkDiagnoser/MXNetworkDiagnoser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64A4F6833F2AC5D8EFE6530BC466062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IVYTraceroute/IVYTraceroute-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		83C45FA87135EB047203EA515D72F2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B40651031931A7CA771659F2B667CC /* Reachability.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8548B00476BEE0E39CFD37F01280D85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = IVYTraceroute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		91F70FDC6C9C07AFE103B482B3616080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED702E8C9022EBF1F26E6BBB0A0C40F /* GBPing.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBPing/GBPing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF56EF362F89B465BEE64FC1AD449E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE00E48A07259F85DDBB56F9C0B3D388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2E8E08726A4BC4AFEF5C5D5AB186D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = IVYTraceroute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E6757500C6B805CEA310F31C21CB8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1953E165BCCEC874E38E61B13157D4 /* IVYTraceroute.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IVYTraceroute/IVYTraceroute-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FDDD5AB76F4A6D25CCFBC6847D15AF /* Build configuration list for PBXNativeTarget "IVYTraceroute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6757500C6B805CEA310F31C21CB8EA1 /* Debug */,
+				64A4F6833F2AC5D8EFE6530BC466062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C957774E7F40FA5C405F3397B425588 /* Build configuration list for PBXNativeTarget "SDVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34247821F086B3AB4E57595650797822 /* Debug */,
+				3FC7315D30CA322BF9813B721962ADF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BCA48948A514F5D600C561E939F349 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C45FA87135EB047203EA515D72F2A1 /* Debug */,
+				1527210A488AC4D1E1EB7D247DCF6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2909939B15A2148777C778602848A1B /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE00E48A07259F85DDBB56F9C0B3D388 /* Debug */,
+				AF56EF362F89B465BEE64FC1AD449E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D46E951AA91E6FF51EE363AA914A50 /* Build configuration list for PBXNativeTarget "MXNetworkDiagnoser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455577A830029BF67E374593AF1A2154 /* Debug */,
+				55FCD0E8117754990E7270419BBC19A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D793F0BF35232C8E5FC4650C61B99F52 /* Build configuration list for PBXNativeTarget "IVYTraceroute-IVYTraceroute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8548B00476BEE0E39CFD37F01280D85D /* Debug */,
+				D2E8E08726A4BC4AFEF5C5D5AB186D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D953D031D346F4AE107DA27E998A8EC0 /* Build configuration list for PBXNativeTarget "GBPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F70FDC6C9C07AFE103B482B3616080 /* Debug */,
+				251DD6A9D6EE83CAEB19F3EB6EC2665F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

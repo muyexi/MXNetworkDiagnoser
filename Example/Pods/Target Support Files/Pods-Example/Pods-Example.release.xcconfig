@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GBPing" "${PODS_ROOT}/Headers/Public/IVYTraceroute" "${PODS_ROOT}/Headers/Public/MXNetworkDiagnoser" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDVersion"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GBPing" -isystem "${PODS_ROOT}/Headers/Public/IVYTraceroute" -isystem "${PODS_ROOT}/Headers/Public/MXNetworkDiagnoser" -isystem "${PODS_ROOT}/Headers/Public/Reachability" -isystem "${PODS_ROOT}/Headers/Public/SDVersion"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GBPing" -l"IVYTraceroute" -l"MXNetworkDiagnoser" -l"Reachability" -l"SDVersion" -framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods

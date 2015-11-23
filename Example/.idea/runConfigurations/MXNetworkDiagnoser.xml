@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MXNetworkDiagnoser" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="MXNetworkDiagnoser" CONFIG_NAME="Debug" SCHEME_NAME="MXNetworkDiagnoser" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <envs />
+    <method />
+  </configuration>
+</component>

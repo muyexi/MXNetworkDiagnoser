@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/..">
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/GBPingSummary+Description.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/GBPingSummary+Description.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/IVYHop+Description.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/IVYHop+Description.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/MXNetworkDiagnoser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Classes/MXNetworkDiagnoser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Example/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALAccessory/ALAccessory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALAccessory/ALAccessory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALBattery/ALBattery.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALBattery/ALBattery.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALCarrier/ALCarrier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALCarrier/ALCarrier.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALDisk/ALDisk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALDisk/ALDisk.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALHardware/ALHardware.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALHardware/ALHardware.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALJailbreak/ALJailbreak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALJailbreak/ALJailbreak.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALLocalization/ALLocalization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALLocalization/ALLocalization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALMemory/ALMemory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALMemory/ALMemory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALNetwork/ALNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALNetwork/ALNetwork.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALProcessor/ALProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALProcessor/ALProcessor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystemConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_ALBatteryConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_AccessoryConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_CarrierConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_DiskConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_HardwareConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_JailbreakConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_LocalizationConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_MemoryConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_NetworkConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_ProcessorConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPad2.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPad3.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPad4.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPadAir.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPadMini.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPad/iPadMiniRetina.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone3Gs.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone4.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone4s.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone5.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone5c.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone5s.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone6.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPhone/iPhone6Plus.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPodTouch/iPodTouch3.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPodTouch/iPodTouch4.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ALSystemUtilities/ALSystemUtilities/ALSystemUtilities/Resources/iPodTouch/iPodTouch5.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/GBPing/GBPing/GBPing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/GBPing/GBPing/GBPing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/GBPing/GBPing/GBPingSummary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/GBPing/GBPing/GBPingSummary.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/GBPing/GBPing/ICMPHeader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IVYTraceroute/Pod/Classes/IVYHop.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IVYTraceroute/Pod/Classes/IVYHop.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IVYTraceroute/Pod/Classes/IVYTraceroute.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IVYTraceroute/Pod/Classes/IVYTraceroute.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Reveal-iOS-SDK/Reveal-Framework-iOS-1.6.2/Reveal.framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDVersion/SDVersion/SDVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDVersion/SDVersion/SDiOSVersion/SDiOSVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDVersion/SDVersion/SDiOSVersion/SDiOSVersion.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ALSystemUtilities/ALSystemUtilities-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ALSystemUtilities/ALSystemUtilities-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ALSystemUtilities/ALSystemUtilities.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GBPing/GBPing-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GBPing/GBPing-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GBPing/GBPing.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IVYTraceroute/IVYTraceroute-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IVYTraceroute/IVYTraceroute-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IVYTraceroute/IVYTraceroute.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MXNetworkDiagnoser/MXNetworkDiagnoser-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MXNetworkDiagnoser/MXNetworkDiagnoser-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MXNetworkDiagnoser/MXNetworkDiagnoser.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDVersion/SDVersion-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDVersion/SDVersion-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDVersion/SDVersion.xcconfig" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
