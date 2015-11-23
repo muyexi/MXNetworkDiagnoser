@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/muyexi/MXNetworkDiagnoser.git", :tag => "0.0.1" }
   s.source_files = "Classes", "Classes/**/*.{h,m}"
   s.requires_arc = true
+  s.ios.library = 'resolv'
 
   s.dependency 'IVYTraceroute', '~> 1.0'
   s.dependency "GBPing", "~> 1.3"
