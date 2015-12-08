@@ -53,7 +53,7 @@
         [self.delegate startDiagnose];
     }
     
-    [self addDiagnoseLogLine:@"开始诊断"];
+    [self addDiagnoseLogLine:@"开始诊断\n"];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [self recordBasicInfo];
         [self diagnoseDomain:self.domains.firstObject];
@@ -99,13 +99,13 @@
             
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                 [self.ping stop];
-                [self startTracerouteDomain:domain];
+                self.shouldTraceroute ? [self startTracerouteDomain:domain] : [self diagnoseNextDomain:domain];
             });
         } else {
             [self addDiagnoseLogLine:[NSString stringWithFormat:@"\nFailed to ping: %@", domain]];
             
             [self.ping stop];
-            [self startTracerouteDomain:domain];
+            self.shouldTraceroute ? [self startTracerouteDomain:domain] : [self diagnoseNextDomain:domain];
         }
     }];
 }

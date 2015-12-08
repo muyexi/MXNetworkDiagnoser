@@ -23,6 +23,7 @@
 @interface MXNetworkDiagnoser : NSObject
 
 @property (weak, nonatomic) id<MXNetworkDiagnoserDelegate> delegate;
+@property (assign, nonatomic) BOOL shouldTraceroute;
 
 - (instancetype)initWithUserID:(NSString *)userID domains:(NSArray *)domains;
 
